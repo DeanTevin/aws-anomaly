@@ -9,11 +9,6 @@ from tensorflow import keras
 from keras.models import Sequential
 from keras.utils import np_utils
 from keras.layers import Dense, Activation, Dropout, Conv1D, MaxPooling1D
-import pickle
-from sklearn.neural_network import MLPClassifier
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
-from sklearn.ensemble import RandomForestClassifier
 from datetime import datetime
 dateparse = lambda x: datetime.strptime(x, '%d/%m/%Y %H.%M')
 
